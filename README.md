@@ -1,4 +1,5 @@
 # مشغل IPTV الاحترافي الشامل (IPTV Streamer Pro)
+<img width="720" height="1362" alt="Iptv" src="https://github.com/user-attachments/assets/b0e69eed-9193-4956-bfb3-2e60eae31f7a" />
 
 تطبيق ويب حديث، متطور، ومتجاوب بالكامل مخصص لتشغيل وإدارة قوائم وملفات **IPTV (M3U / M3U8)** مباشرة من المتصفح بكفاءة عالية واحترافية.
 
@@ -37,6 +38,12 @@
 3. اختر إما **إدخال رابط M3U** أو **رفع ملف من الجهاز**.
 4. استمتع بتشغيل القنوات وتصفح الأقسام والمفضلة!
 
+---
+## روابط التطبيق 👍 
+https://wazefapress.github.io/IPTV-Streamer-Pro/
+
+أو 
+https://iptv.haythamzeidan.workers.dev/
 ---
 
 ## 📄 حقوق التطوير والتصميم
