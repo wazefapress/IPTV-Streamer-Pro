@@ -1,0 +1,20 @@
+{
+  "name": "مشغل IPTV الاحترافي",
+  "short_name": "IPTV Pro",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "icons": [
+    {
+      "src": "IPTV.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "IPTV.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

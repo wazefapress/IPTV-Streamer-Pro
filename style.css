@@ -1,0 +1,109 @@
+body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar-brand img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .player-container {
+            position: relative;
+            padding-top: 56.25%;
+            background-color: #000;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+        }
+        .player-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .channels-sidebar {
+            height: 420px;
+            overflow-y: auto;
+            background-color: #1e1e1e;
+            border-radius: 12px;
+            border: 1px solid #2d2d2d;
+            position: relative;
+        }
+        .channels-sidebar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .channels-sidebar::-webkit-scrollbar-thumb {
+            background: #555;
+            border-radius: 3px;
+        }
+        .channel-item {
+            display: flex;
+            align-items: center;
+            padding: 10px 12px;
+            border-bottom: 1px solid #2d2d2d;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+        .channel-item:hover, .channel-item.active {
+            background-color: #2b394a;
+        }
+        .channel-logo {
+            width: 35px;
+            height: 35px;
+            object-fit: contain;
+            background-color: #fff;
+            border-radius: 6px;
+            margin-left: 12px;
+            padding: 2px;
+        }
+        .channel-name {
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: #ffffff !important;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            flex-grow: 1;
+        }
+        .fav-btn {
+            background: none;
+            border: none;
+            color: #ffc107;
+            font-size: 1.1rem;
+            padding: 0 5px;
+            transition: transform 0.2s;
+        }
+        .fav-btn:hover {
+            transform: scale(1.2);
+        }
+        .card-custom {
+            background-color: #1e1e1e;
+            border: 1px solid #2d2d2d;
+            border-radius: 12px;
+            color: #ffffff;
+        }
+        .form-control, .form-select {
+            background-color: #2a2a2a !important;
+            color: #ffffff !important;
+            border-color: #444 !important;
+        }
+        .form-control::placeholder {
+            color: #aaa !important;
+        }
+        footer {
+            background-color: #181818;
+            border-top: 1px solid #2d2d2d;
+        }
+        @media (max-width: 991.98px) {
+            .channels-sidebar {
+                height: 350px;
+                margin-top: 20px;
+            }
+        }
